@@ -4,7 +4,7 @@ The proposal offers the Seers dApp to the NNS to be turned into a decentralized 
 
 ## Who sent this proposal?
 
-This proposal is sent by Seers development team. Seers is [**a web3 social network platform**](https://seers.social/) running on Internet Computer. The project is presents in [**this whitepaper**](https://www.notion.so/Seers-Web3-Social-Network-25fa0f505b0141cabb5d7d68a11f572b).
+This proposal is sent by Seers development team. Seers is [**a web3 social network platform**](https://seers.social/) running on Internet Computer. The project is presented in [**this whitepaper**](https://www.notion.so/Seers-Web3-Social-Network-25fa0f505b0141cabb5d7d68a11f572b).
 
 ## What is the purpose of this proposal?
 
