@@ -1,6 +1,6 @@
 ic-admin  \
    --nns-url "https://ic0.app" \
-   --secret-key-pem ./sns/identity.pem \
+   --secret-key-pem /Users/marcio/proposer.pem \
    propose-to-update-sns-deploy-whitelist  \
    --added-principals "qw37h-tqaaa-aaaam-abqqa-cai"  \
    --proposer "505601596948609715" \
@@ -9,7 +9,7 @@ ic-admin  \
 
 ## Who sent this proposal?
 
-This proposal is sent by Seers development team. Seers is [**a web3 social network platform**](https://seers.social/) running on Internet Computer. The project is presents in [**this whitepaper**](https://www.notion.so/Seers-Web3-Social-Network-25fa0f505b0141cabb5d7d68a11f572b).
+This proposal is sent by Seers development team. Seers is [**a web3 social network platform**](https://seers.social/) running on Internet Computer. The project is presented in [**this whitepaper**](https://www.notion.so/Seers-Web3-Social-Network-25fa0f505b0141cabb5d7d68a11f572b).
 
 ## What is the purpose of this proposal?
 
