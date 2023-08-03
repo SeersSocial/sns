@@ -11,7 +11,6 @@ ic-admin  \
 
 This proposal is sent by Seers development team. 
 
-
 ### Seers is a Web3, [**fully on-chain social network**](https://seers.social/) built atop the groundbreaking technology of the Internet Computer. 
 Drawing inspiration from Twitter's intuitive design, Seers improves user interaction with exclusive crypto features like prediction markets. 
 This platform allows you to voice your thoughts and use cryptocurrencies to predict future events.

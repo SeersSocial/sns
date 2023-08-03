@@ -4,7 +4,24 @@ The proposal offers the Seers dApp to the NNS to be turned into a decentralized 
 
 ## Who sent this proposal?
 
-This proposal is sent by Seers development team. Seers is [**a web3 social network platform**](https://seers.social/) running on Internet Computer. The project is presented in [**this whitepaper**](https://www.notion.so/Seers-Web3-Social-Network-25fa0f505b0141cabb5d7d68a11f572b).
+This proposal is sent by Seers development team.
+
+### Seers is a Web3, [**fully on-chain social network**](https://seers.social/) built atop the groundbreaking technology of the Internet Computer.
+
+Drawing inspiration from Twitter's intuitive design, Seers improves user interaction with exclusive crypto features like prediction markets.
+This platform allows you to voice your thoughts and use cryptocurrencies to predict future events.
+But this is merely the beginning. We envision Seers evolving into a vibrant platform akin to Elon Musk's 'X',
+with the potential to redefine global interactions and transactions.
+The project is presented in [**this whitepaper**](https://www.notion.so/Seers-Web3-Social-Network-25fa0f505b0141cabb5d7d68a11f572b).
+
+### Seers' Accomplishments and Decentralised Future
+
+- Over the past year, Seers conducted extensive product-market fit experiments, featuring 300 prediction markets and engaging 3,000 users. Additionally, our community has created over 10,000 posts, reflecting active participation.
+- These efforts have resulted in a remarkable Total Value Locked (TVL) of $15,000 in ICP and an estimated yearly revenue of $25,000.
+- Importantly, we have recently distributed part of the revenue to our users according to their contributions over the previous month, with some members earning up to $100 per week.
+
+While we consider these figures modest, we firmly believe that we will experience exponential growth as we continue to develop our roadmap and tap into the full potential of the Internet Computer's capabilities.
+Decentralization is crucial to ramp up liquidity and deploy more powerful features.
 
 ## What is the purpose of this proposal?
 
