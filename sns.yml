@@ -16,7 +16,7 @@ transaction_fee_e8s: 100000
 #
 # Example: InternetComputerProtocol
 #
-token_name: SEER
+token_name: Seer
 #
 # The symbol of the token issued by the SNS Ledger.
 # This field has no default, a value must be provided by the user.
@@ -66,7 +66,7 @@ name: "Seers"
 # Description of the SNS project.
 # Must be a string of max length = 2000.
 #
-description: "A decentralized social network governed by the people for the people"
+description: "A web3 social network governed by the people for the people"
 #
 # The voting reward rate falls quadratically from
 # `initial_reward_rate_basis_points` to `final_reward_rate_basis_points` over
@@ -235,128 +235,108 @@ initial_token_distribution:
   FractionalDeveloperVotingPower:
     developer_distribution:
       developer_neurons:
-        - controller: j4wxw-qghlk-j3w4z-4bmmj-gb2yj-3og4h-qdtut-mbqaz-b7ohp-tpqiq-2qe # DEV team neuron for making proposals
+        - controller: hkatf-wjdd6-zgigt-awrjy-wocwv-uqzjn-mvhnz-giwui-2lzag-xhyhs-zae # DEV team neuron for making proposals
           stake_e8s: 20000000000 # 200 SEER which allows 20 in-flight proposals
           memo: 0
           dissolve_delay_seconds: 31536000 # 1 year
           vesting_period_seconds: 0
-        - controller: j4wxw-qghlk-j3w4z-4bmmj-gb2yj-3og4h-qdtut-mbqaz-b7ohp-tpqiq-2qe # DEV team beacon neuron for community to follow. It will follow the 3 personal dev beacon neurons.
-          stake_e8s: 400000000 # 4 SEER which is the mimimum stake
-          memo: 1
-          dissolve_delay_seconds: 31536000 # 1 year
-          vesting_period_seconds: 0
-        - controller: liskq-yvpvq-eo6av-3gaz6-izybe-x74ku-t42w5-si5dq-eitcy-sih4g-lqe # Personal beacon neuron for Marcio. All Marcio's bigger neurons will follow this one.
+        - controller: qodys-nsmrf-glh6y-urrw3-r47ne-ldaio-kcpbl-rvtak-p4svv-alqlg-eae # DEV team beacon neuron for community to follow. It will follow the 3 personal dev beacon neurons.
           stake_e8s: 400000000 # 4 SEER which is the mimimum stake
           memo: 0
           dissolve_delay_seconds: 31536000 # 1 year
           vesting_period_seconds: 0
-        - controller: liskq-yvpvq-eo6av-3gaz6-izybe-x74ku-t42w5-si5dq-eitcy-sih4g-lqe # Marcio
+        - controller: etx6z-5ba6i-vyq4i-6dh2a-deutb-wfxke-lihci-jqyqx-pjs5i-mbs7b-nae # Personal beacon neuron for Marcio. All Marcio's bigger neurons will follow this one.
+          stake_e8s: 400000000 # 4 SEER which is the mimimum stake
+          memo: 0
+          dissolve_delay_seconds: 31536000 # 1 year
+          vesting_period_seconds: 0
+        - controller: etx6z-5ba6i-vyq4i-6dh2a-deutb-wfxke-lihci-jqyqx-pjs5i-mbs7b-nae # Marcio
           stake_e8s: 100000000000000 # 1%
           memo: 1
           dissolve_delay_seconds: 2628000 # 1 month
           vesting_period_seconds: 0
-        - controller: liskq-yvpvq-eo6av-3gaz6-izybe-x74ku-t42w5-si5dq-eitcy-sih4g-lqe # Marcio
+        - controller: etx6z-5ba6i-vyq4i-6dh2a-deutb-wfxke-lihci-jqyqx-pjs5i-mbs7b-nae # Marcio
           stake_e8s: 100000000000000 # 1%
           memo: 2
           dissolve_delay_seconds: 2628000 # 1 month
           vesting_period_seconds: 31536000 # 1 year
-        - controller: liskq-yvpvq-eo6av-3gaz6-izybe-x74ku-t42w5-si5dq-eitcy-sih4g-lqe # Marcio
+        - controller: etx6z-5ba6i-vyq4i-6dh2a-deutb-wfxke-lihci-jqyqx-pjs5i-mbs7b-nae # Marcio
           stake_e8s: 100000000000000 # 1%
           memo: 3
           dissolve_delay_seconds: 2628000 # 1 month
           vesting_period_seconds: 63072000 # 2 years
-        - controller: liskq-yvpvq-eo6av-3gaz6-izybe-x74ku-t42w5-si5dq-eitcy-sih4g-lqe # Marcio
+        - controller: etx6z-5ba6i-vyq4i-6dh2a-deutb-wfxke-lihci-jqyqx-pjs5i-mbs7b-nae # Marcio
           stake_e8s: 100000000000000 # 1%
           memo: 4
           dissolve_delay_seconds: 2628000 # 1 month
           vesting_period_seconds: 94608000 # 3 years
-        - controller: liskq-yvpvq-eo6av-3gaz6-izybe-x74ku-t42w5-si5dq-eitcy-sih4g-lqe # Marcio
+        - controller: etx6z-5ba6i-vyq4i-6dh2a-deutb-wfxke-lihci-jqyqx-pjs5i-mbs7b-nae # Marcio
           stake_e8s: 100000000000000 # 1%
           memo: 5
           dissolve_delay_seconds: 2628000 # 1 month
           vesting_period_seconds: 126144000 # 4 years
-        - controller: zeu5w-lsfxj-o4f5b-xl4sg-enqva-ez4wa-2nlbb-ufigi-fwnmv-zrfok-uae # Personal beacon neuron for Eric. All Eric's bigger neurons will follow this one.
+        - controller: 5ee42-r3h7o-vsnel-25qw5-sns6x-hu7to-qp5zq-fhuq7-aldtk-ou6ir-tqe # Personal beacon neuron for Eric. All Eric's bigger neurons will follow this one.
           stake_e8s: 400000000 # 4 SEER which is the mimimum stake
           memo: 0
           dissolve_delay_seconds: 31536000 # 1 year
           vesting_period_seconds: 0
-        - controller: zeu5w-lsfxj-o4f5b-xl4sg-enqva-ez4wa-2nlbb-ufigi-fwnmv-zrfok-uae # Eric
+        - controller: 5ee42-r3h7o-vsnel-25qw5-sns6x-hu7to-qp5zq-fhuq7-aldtk-ou6ir-tqe # Eric
           stake_e8s: 100000000000000 # 1%
           memo: 1
           dissolve_delay_seconds: 2628000 # 1 month
           vesting_period_seconds: 0
-        - controller: zeu5w-lsfxj-o4f5b-xl4sg-enqva-ez4wa-2nlbb-ufigi-fwnmv-zrfok-uae # Eric
+        - controller: 5ee42-r3h7o-vsnel-25qw5-sns6x-hu7to-qp5zq-fhuq7-aldtk-ou6ir-tqe # Eric
           stake_e8s: 100000000000000 # 1%
           memo: 2
           dissolve_delay_seconds: 2628000 # 1 month
           vesting_period_seconds: 31536000 # 1 year
-        - controller: zeu5w-lsfxj-o4f5b-xl4sg-enqva-ez4wa-2nlbb-ufigi-fwnmv-zrfok-uae # Eric
+        - controller: 5ee42-r3h7o-vsnel-25qw5-sns6x-hu7to-qp5zq-fhuq7-aldtk-ou6ir-tqe # Eric
           stake_e8s: 100000000000000 # 1%
           memo: 3
           dissolve_delay_seconds: 2628000 # 1 month
           vesting_period_seconds: 63072000 # 2 years
-        - controller: zeu5w-lsfxj-o4f5b-xl4sg-enqva-ez4wa-2nlbb-ufigi-fwnmv-zrfok-uae # Eric
+        - controller: 5ee42-r3h7o-vsnel-25qw5-sns6x-hu7to-qp5zq-fhuq7-aldtk-ou6ir-tqe # Eric
           stake_e8s: 100000000000000 # 1%
           memo: 4
           dissolve_delay_seconds: 2628000 # 1 month
           vesting_period_seconds: 94608000 # 3 years
-        - controller: zeu5w-lsfxj-o4f5b-xl4sg-enqva-ez4wa-2nlbb-ufigi-fwnmv-zrfok-uae # Eric
+        - controller: 5ee42-r3h7o-vsnel-25qw5-sns6x-hu7to-qp5zq-fhuq7-aldtk-ou6ir-tqe # Eric
           stake_e8s: 100000000000000 # 1%
           memo: 5
           dissolve_delay_seconds: 2628000 # 1 month
           vesting_period_seconds: 126144000 # 4 years
-        - controller: 4s36z-lcydz-e4ts5-nuzlo-h3ksp-uu4fe-xndls-pq6ah-mmv5k-x5rjw-hqe # Personal beacon neuron for Nico. All Nico's bigger neurons will follow this one.
+        - controller: 5gdec-xrdxt-dphcd-vwmb3-fdi3g-camhx-dixss-sadtu-a7uuw-ta5u4-oqe # Personal beacon neuron for Nico. All Nico's bigger neurons will follow this one.
           stake_e8s: 400000000 # 4 SEER which is the mimimum stake
           memo: 0
           dissolve_delay_seconds: 31536000 # 1 year
           vesting_period_seconds: 0
-        - controller: 4s36z-lcydz-e4ts5-nuzlo-h3ksp-uu4fe-xndls-pq6ah-mmv5k-x5rjw-hqe # Nico
+        - controller: 5gdec-xrdxt-dphcd-vwmb3-fdi3g-camhx-dixss-sadtu-a7uuw-ta5u4-oqe # Nico
           stake_e8s: 100000000000000 # 1%
           memo: 1
           dissolve_delay_seconds: 2628000 # 1 month
           vesting_period_seconds: 0
-        - controller: 4s36z-lcydz-e4ts5-nuzlo-h3ksp-uu4fe-xndls-pq6ah-mmv5k-x5rjw-hqe # Nico
+        - controller: 5gdec-xrdxt-dphcd-vwmb3-fdi3g-camhx-dixss-sadtu-a7uuw-ta5u4-oqe # Nico
           stake_e8s: 100000000000000 # 1%
           memo: 2
           dissolve_delay_seconds: 2628000 # 1 month
           vesting_period_seconds: 31536000 # 1 year
-        - controller: 4s36z-lcydz-e4ts5-nuzlo-h3ksp-uu4fe-xndls-pq6ah-mmv5k-x5rjw-hqe # Nico
+        - controller: 5gdec-xrdxt-dphcd-vwmb3-fdi3g-camhx-dixss-sadtu-a7uuw-ta5u4-oqe # Nico
           stake_e8s: 100000000000000 # 1%
           memo: 3
           dissolve_delay_seconds: 2628000 # 1 month
           vesting_period_seconds: 63072000 # 2 years
-        - controller: 4s36z-lcydz-e4ts5-nuzlo-h3ksp-uu4fe-xndls-pq6ah-mmv5k-x5rjw-hqe # Nico
+        - controller: 5gdec-xrdxt-dphcd-vwmb3-fdi3g-camhx-dixss-sadtu-a7uuw-ta5u4-oqe # Nico
           stake_e8s: 100000000000000 # 1%
           memo: 4
           dissolve_delay_seconds: 2628000 # 1 month
           vesting_period_seconds: 94608000 # 3 years
-        - controller: 4s36z-lcydz-e4ts5-nuzlo-h3ksp-uu4fe-xndls-pq6ah-mmv5k-x5rjw-hqe # Nico
+        - controller: 5gdec-xrdxt-dphcd-vwmb3-fdi3g-camhx-dixss-sadtu-a7uuw-ta5u4-oqe # Nico
           stake_e8s: 100000000000000 # 1%
           memo: 5
           dissolve_delay_seconds: 2628000 # 1 month
           vesting_period_seconds: 126144000 # 4 years
-        - controller: n2xex-iyaaa-aaaar-qaaeq-cai # Crowdfund NFT
-          stake_e8s: 200000000000000 # 2%
-          memo: 0
-          dissolve_delay_seconds: 2628000 # 1 month
-          vesting_period_seconds: 15768000 # 6 months
-        - controller: n2xex-iyaaa-aaaar-qaaeq-cai # Crowdfund NFT
-          stake_e8s: 200000000000000 # 2%
-          memo: 1
-          dissolve_delay_seconds: 2628000 # 1 month
-          vesting_period_seconds: 31536000 # 12 months
-        - controller: n2xex-iyaaa-aaaar-qaaeq-cai # Airdrop Early Users
-          stake_e8s: 200000000000000 # 2%
-          memo: 2
-          dissolve_delay_seconds: 2628000 # 1 month
-          vesting_period_seconds: 15768000 # 6 months
-        - controller: n2xex-iyaaa-aaaar-qaaeq-cai # Airdrop Early Users
-          stake_e8s: 200000000000000 # 2%
-          memo: 3
-          dissolve_delay_seconds: 2628000 # 1 month
-          vesting_period_seconds: 31536000 # 12 months
     treasury_distribution:
-      total_e8s: 5200000000000000 # 52%
+      total_e8s: 6000000000000000 # 60%
     swap_distribution:
       total_e8s: 2500000000000000 # 25%
       initial_swap_amount_e8s: 2500000000000000 # 25%
