@@ -23,7 +23,7 @@ The project is presented in [**this whitepaper**](https://www.notion.so/Seers-We
 #### Seers' Accomplishments and Decentralised Future
 
 - Over the past year, Seers conducted extensive product-market fit experiments, featuring 300 prediction markets and engaging 3,000 users. Additionally, our community has created over 10,000 posts, reflecting active participation.
-- These efforts have resulted in a remarkable Total Value Locked (TVL) of $20,000 in ICP and an estimated yearly revenue of $25,000.
+- These efforts have resulted in a remarkable Total Value Locked (TVL) of \$20,000 in ICP and an estimated yearly revenue of $25,000.
 - Importantly, we have recently distributed part of the revenue to our users according to their contributions over the previous month, with some members earning up to $100 per week.
 
 While we consider these figures modest, we firmly believe that we will experience exponential growth as we continue to develop our roadmap and tap into the full potential of the Internet Computer's capabilities.
