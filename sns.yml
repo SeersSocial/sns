@@ -150,10 +150,7 @@ max_age_bonus_multiplier: 1.25
 # This field has no default, a value must be provided by the user.
 #
 fallback_controller_principal_ids:
-  [
-    "j4wxw-qghlk-j3w4z-4bmmj-gb2yj-3og4h-qdtut-mbqaz-b7ohp-tpqiq-2qe",
-    "ukjc3-laaaa-aaaag-qa3ma-cai",
-  ]
+  ["j4wxw-qghlk-j3w4z-4bmmj-gb2yj-3og4h-qdtut-mbqaz-b7ohp-tpqiq-2qe"]
 #
 # The initial voting period in seconds of a newly created proposal.
 # (A proposal's voting period may be increased during a proposal's lifecycle due
