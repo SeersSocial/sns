@@ -8,7 +8,7 @@ ic-admin   \
    --min-participant-icp-e8s 100000000  \
    --max-participant-icp-e8s 15000000000000  \
    --swap-due-timestamp-seconds "1693780942"  \
-   --sns-token-e8s 33000000000000000  \
+   --sns-token-e8s 2500000000000000  \
    --target-swap-canister-id "vbxzv-kaaaa-aaaaq-aabla-cai"  \
    --community-fund-investment-e8s 30000000000000  \
    --neuron-basket-count 5  \
