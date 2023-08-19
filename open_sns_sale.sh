@@ -1,7 +1,7 @@
 ic-admin   \
    --nns-url "https://ic0.app" \
-   --secret-key-pem /home/marcio/.config/dfx/identity/seers-prop/identity.pem propose-to-open-sns-token-swap  \
-   --proposer "" \
+   --secret-key-pem /Users/marcio/proposer.pem propose-to-open-sns-token-swap  \
+   --proposer "505601596948609715" \
    --min-participants 100  \
    --min-icp-e8s 50000000000000  \
    --max-icp-e8s 100000000000000  \
@@ -57,7 +57,7 @@ Ledger transaction fee: 0.001 SEER tokens
 
 - Each decentralization sale participant (including the NF) will receive their tokens in a basket of 5 equal value SEER neurons with dissolve delays of 0, 6, 12, 18, and 24 months respectively.
 - The founding dev team will receive their tokens in a basket of 5 neurons. Each neuron will have a dissolve delay of 1 month. 
-These neurons will be vested over a period of 48 months from the SNS Sale in equal proportions every month. The founders will not receive any tokens at the SNS sale event, 
+These neurons will be vested over a period of 48 months from the SNS Sale in equal proportions. The founders will not receive any tokens at the SNS sale event, 
 with all the tokens having a vesting period at that time.
 
 The governance parameters for Seers are proposed to be initially set as:
@@ -68,7 +68,7 @@ The governance parameters for Seers are proposed to be initially set as:
 
 Voting Rewards: The reward rate is 2.5% annually.
 
-- Max staking bonus (for 1 years): 2x
+- Max staking bonus (for 1 year): 2x
 - Max age for age bonus: 6 months
 - Max age bonus: 1.25x
 
