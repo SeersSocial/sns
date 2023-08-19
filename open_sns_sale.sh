@@ -102,4 +102,4 @@ Every logged in user on the platform receives a canister that stores their indiv
 
 ## Verification
 
-All the details above can be verified, by examining the initialized Seers SNS canisters. [More detailed instructions are here](https://wiki.internetcomputer.org/wiki/How-to:_Verify_SNS_decentralization_swap_proposal).
+All the details above can be verified, by examining the initialized Seers SNS canisters. [More detailed instructions are here](https://wiki.internetcomputer.org/wiki/How-to:_Verify_SNS_decentralization_swap_proposal)."
