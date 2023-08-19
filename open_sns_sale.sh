@@ -66,7 +66,7 @@ The governance parameters for Seers are proposed to be initially set as:
 - Min staking period for voting: 1 month
 - Max staking period: 1 year
 
-Voting Rewards: The reward rate would start from 10% annually. This rate would decline over time and settle at 5% over 10 years.
+Voting Rewards: The reward rate is 2.5% annually.
 
 - Max staking bonus (for 1 years): 2x
 - Max age for age bonus: 6 months
@@ -97,9 +97,5 @@ Top-level canisters controlled by the Seers SNS root canister:
 
 - 1 Frontend canister (oulla-fyaaa-aaaag-qa6fa-cai)
 - 1 Backend canister (otknu-iaaaa-aaaag-qa6fq-cai)
-
-Every logged in user on the platform receives a canister that stores their individual data. They are controlled by the user index canister. So, indirectly, they will all be controlled by the SNS as well.
-
-## Verification
 
 All the details above can be verified, by examining the initialized Seers SNS canisters. [More detailed instructions are here](https://wiki.internetcomputer.org/wiki/How-to:_Verify_SNS_decentralization_swap_proposal)."
