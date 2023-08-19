@@ -26,6 +26,15 @@ This platform allows you to voice your thoughts and use cryptocurrencies to pred
 But this is merely the beginning. We envision Seers evolving into a vibrant platform akin to Elon Musk's 'X', 
  with the potential to redefine global interactions and transactions.
 
+### Seers' Accomplishments and Decentralised Future
+
+- Over the past year, Seers conducted extensive product-market fit experiments, featuring 300 prediction markets and engaging 3,000 users. Additionally, our community has created over 10,000 posts, reflecting active participation.
+- These efforts have resulted in a remarkable Total Value Locked (TVL) of \$20,000 in ICP and an estimated yearly revenue of \$25,000.
+- Importantly, we have recently distributed part of the revenue to our users according to their contributions over the previous month, with some members earning up to \$100 per week.
+
+While we consider these figures modest, we firmly believe that we will experience exponential growth as we continue to develop our roadmap and tap into the full potential of the Internet Computer's capabilities.
+Decentralization is crucial to ramp up liquidity and deploy more powerful features.
+
 To steer the direction of Seers as a public good, the Seers DAO is being formed. People who hold SEER tokens can stake them as neurons to make and vote on proposals to change the platform. 
 The SNS DAO holds a treasury of SEER tokens and ICP that can be used to fund the platform's ongoing development and reward users for positive usage and growth. 
 By incentivizing users with SEER tokens and neurons, the platform hopes to create a team of advocates who will promote Seers and contribute to its long-term success.
