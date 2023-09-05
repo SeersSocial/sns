@@ -329,103 +329,103 @@ Distribution:
     #
     # For testing, propose_sns.sh will fill this in automatically.
     - principal: hkatf-wjdd6-zgigt-awrjy-wocwv-uqzjn-mvhnz-giwui-2lzag-xhyhs-zae
-      stake: 20_000_000_000 tokens
+      stake: 200 tokens
       memo: 0
       dissolve_delay: 1 years
       vesting_period: 0 years
 
     - principal: qodys-nsmrf-glh6y-urrw3-r47ne-ldaio-kcpbl-rvtak-p4svv-alqlg-eae
-      stake: 400_000_000 tokens
+      stake: 4 tokens
       memo: 0
       dissolve_delay: 1 years
       vesting_period: 0 years
     - principal: etx6z-5ba6i-vyq4i-6dh2a-deutb-wfxke-lihci-jqyqx-pjs5i-mbs7b-nae
-      stake: 400_000_000 tokens
+      stake: 4 tokens
       memo: 0
       dissolve_delay: 1 years
       vesting_period: 0 years
     - principal: etx6z-5ba6i-vyq4i-6dh2a-deutb-wfxke-lihci-jqyqx-pjs5i-mbs7b-nae # Marcio
-      stake: 100_000_000_000_000 tokens
+      stake: 1_000_000 tokens
       memo: 1
       dissolve_delay: 1 month
       vesting_period: 0 years
     - principal: etx6z-5ba6i-vyq4i-6dh2a-deutb-wfxke-lihci-jqyqx-pjs5i-mbs7b-nae # Marcio
-      stake: 100_000_000_000_000 tokens
+      stake: 1_000_000 tokens
       memo: 2
       dissolve_delay: 1 month
       vesting_period: 1 year
     - principal: etx6z-5ba6i-vyq4i-6dh2a-deutb-wfxke-lihci-jqyqx-pjs5i-mbs7b-nae # Marcio
-      stake: 100_000_000_000_000 tokens
+      stake: 1_000_000 tokens
       memo: 3
       dissolve_delay: 1 month
       vesting_period: 2 years
     - principal: etx6z-5ba6i-vyq4i-6dh2a-deutb-wfxke-lihci-jqyqx-pjs5i-mbs7b-nae # Marcio
-      stake: 100_000_000_000_000 tokens
+      stake: 1_000_000 tokens
       memo: 4
       dissolve_delay: 1 month
       vesting_period: 3 years
     - principal: etx6z-5ba6i-vyq4i-6dh2a-deutb-wfxke-lihci-jqyqx-pjs5i-mbs7b-nae # Marcio
-      stake: 100_000_000_000_000 tokens
+      stake: 1_000_000 tokens
       memo: 5
       dissolve_delay: 1 month
       vesting_period: 4 years
     - principal: 5ee42-r3h7o-vsnel-25qw5-sns6x-hu7to-qp5zq-fhuq7-aldtk-ou6ir-tqe # Personal beacon neuron for Eric. All Eric's bigger neurons will follow this one.
-      stake: 400_000_000 tokens
+      stake: 4 tokens
       memo: 0
       dissolve_delay: 1 year
       vesting_period: 0 years
     - principal: 5ee42-r3h7o-vsnel-25qw5-sns6x-hu7to-qp5zq-fhuq7-aldtk-ou6ir-tqe # Eric
-      stake: 100_000_000_000_000 tokens
+      stake: 1_000_000 tokens
       memo: 1
       dissolve_delay: 1 month
       vesting_period: 0 years
     - principal: 5ee42-r3h7o-vsnel-25qw5-sns6x-hu7to-qp5zq-fhuq7-aldtk-ou6ir-tqe # Eric
-      stake: 100_000_000_000_000 tokens
+      stake: 1_000_000 tokens
       memo: 2
       dissolve_delay: 1 month
       vesting_period: 1 year
     - principal: 5ee42-r3h7o-vsnel-25qw5-sns6x-hu7to-qp5zq-fhuq7-aldtk-ou6ir-tqe # Eric
-      stake: 100_000_000_000_000 tokens
+      stake: 1_000_000 tokens
       memo: 3
       dissolve_delay: 1 month
       vesting_period: 2 years
     - principal: 5ee42-r3h7o-vsnel-25qw5-sns6x-hu7to-qp5zq-fhuq7-aldtk-ou6ir-tqe # Eric
-      stake: 100_000_000_000_000 tokens
+      stake: 1_000_000 tokens
       memo: 4
       dissolve_delay: 1 month
       vesting_period: 3 years
     - principal: 5ee42-r3h7o-vsnel-25qw5-sns6x-hu7to-qp5zq-fhuq7-aldtk-ou6ir-tqe # Eric
-      stake: 100_000_000_000_000 tokens
+      stake: 1_000_000 tokens
       memo: 5
       dissolve_delay: 1 month
       vesting_period: 4 years
     - principal: 5gdec-xrdxt-dphcd-vwmb3-fdi3g-camhx-dixss-sadtu-a7uuw-ta5u4-oqe # Personal beacon neuron for Nico. All Nico's bigger neurons will follow this one.
-      stake: 400_000_000 tokens
+      stake: 4 tokens
       memo: 0
       dissolve_delay: 1 year
       vesting_period: 0 years
     - principal: 5gdec-xrdxt-dphcd-vwmb3-fdi3g-camhx-dixss-sadtu-a7uuw-ta5u4-oqe # Nico
-      stake: 100_000_000_000_000 token
+      stake: 1_000_000 token
       memo: 1
       dissolve_delay: 1 month
       vesting_period: 0 years
     - principal: 5gdec-xrdxt-dphcd-vwmb3-fdi3g-camhx-dixss-sadtu-a7uuw-ta5u4-oqe # Nico
-      stake: 100_000_000_000_000 tokens
+      stake: 1_000_000 tokens
       memo: 2
       dissolve_delay: 1 month
       vesting_period: 1 year
     - principal: 5gdec-xrdxt-dphcd-vwmb3-fdi3g-camhx-dixss-sadtu-a7uuw-ta5u4-oqe # Nico
-      stake: 100_000_000_000_000 tokens
+      stake: 1_000_000 tokens
       memo: 3
       dissolve_delay: 1 month
       vesting_period: 2 years
     - principal: 5gdec-xrdxt-dphcd-vwmb3-fdi3g-camhx-dixss-sadtu-a7uuw-ta5u4-oqe # Nico
-      stake: 100_000_000_000_000 tokens
+      stake: 1_000_000 tokens
       memo: 4
       dissolve_delay: 1 month
       vesting_period: 3 years
     - principal: 5gdec-xrdxt-dphcd-vwmb3-fdi3g-camhx-dixss-sadtu-a7uuw-ta5u4-oqe # Nico
-      stake: 100_000_000_000_000 tokens
+      stake: 1_000_000 tokens
       memo: 5
       dissolve_delay: 1 month
       vesting_period: 4 years
@@ -449,7 +449,7 @@ Distribution:
   #      2 million    (governance)
   # + 500 thousand    (swap)
   # --------------
-  total: 100_000_000 tokens
+  total: 100_000_216 tokens
 
 # Configuration of the decentralization swap parameters. Choose these parameters
 # carefully, if a decentralization swap fails, the SNS will restore the dapp
