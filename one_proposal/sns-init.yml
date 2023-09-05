@@ -96,7 +96,7 @@ NnsProposal:
 # If the SNS launch attempt fails, control over the dapp canister(s) is given to
 # these principals. In most use cases, this is chosen to be the original set of
 # principal(s) of the dapp. Must be a list of PrincipalIds.
-fallback_principal_principals:
+fallback_controller_principals:
   # For the actual SNS launch, you should replace this with one or more
   # principals of your intended fallback principals.
   #
@@ -123,7 +123,7 @@ dapp_canisters:
 Token:
   # The name of the token issued by the SNS ledger.
   # Must be a string of 4 to 255 bytes without leading or trailing spaces.
-  name: ICX
+  name: IC X
 
   # The symbol of the token issued by the SNS Ledger.
   # Must be a string of 3 to 10 bytes without leading or trailing spaces.
@@ -435,12 +435,12 @@ Distribution:
     # as the treasury. This is initialized in a special sub-account, as the
     # main account of Governance is the minting account of the SNS Ledger.
     # This field is specified as a token. For instance, "1 token".
-    governance: 70_000_000 tokens
+    governance: 69_000_000 tokens
 
     # The initial SNS token balance of the Swap canister is what will be
     # available for the decentralization swap. These tokens will be swapped
     # for ICP. This field is specified as a token. For instance, "1 token".
-    swap: 15_000_000 tokens
+    swap: 16_000_000 tokens
 
   # Checksum of the total number of tokens distributed in this section.
   # This field is specified as a token. For instance, "1 token".
@@ -514,7 +514,7 @@ Swap:
     # many neurons will be in each participant's neuron basket. Note that
     # the first neuron in each neuron basket will have zero dissolve delay.
     # This value should thus be greater than or equal to `2`.
-    events: 5
+    events: 3
 
     # The interval at which the schedule will be increased per event. The
     # first neuron in the basket will be unlocked with zero dissolve delay.
@@ -527,7 +527,7 @@ Swap:
     # neurons. While neuron basket neurons do not use `vesting_period`, they
     # have a vesting schedule. This field is specified as a duration. For
     # example: "1 month".
-    interval: 6 months
+    interval: 3 months
 
   # Absolute time of day when the decentralization swap is supposed to start.
   #
