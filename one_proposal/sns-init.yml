@@ -123,7 +123,7 @@ dapp_canisters:
 Token:
   # The name of the token issued by the SNS ledger.
   # Must be a string of 4 to 255 bytes without leading or trailing spaces.
-  name: IC X
+  name: IC.X
 
   # The symbol of the token issued by the SNS Ledger.
   # Must be a string of 3 to 10 bytes without leading or trailing spaces.
@@ -251,11 +251,11 @@ Voting:
       # the maximum age bonus. Once this age is reached, the neuron will
       # continue to age, but no more bonus will be applied. This field
       # is specified as a duration. For example: "2 years".
-      duration: 1 year
+      duration: 3 months
       # If a neuron's age is `duration` or older, its voting power will be
       # multiplied by this `bonus` amount. This field is specified
       # as a percentage. For example: "25%".
-      bonus: 25%
+      bonus: 100%
 
   # Configuration of SNS voting reward parameters.
   #
@@ -514,7 +514,7 @@ Swap:
     # many neurons will be in each participant's neuron basket. Note that
     # the first neuron in each neuron basket will have zero dissolve delay.
     # This value should thus be greater than or equal to `2`.
-    events: 3
+    events: 5
 
     # The interval at which the schedule will be increased per event. The
     # first neuron in the basket will be unlocked with zero dissolve delay.
