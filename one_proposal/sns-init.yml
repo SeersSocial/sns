@@ -99,6 +99,7 @@ NnsProposal:
     But this is merely the beginning. We envision Seers evolving into a vibrant platform akin to Elon Musk's 'X', 
     with the potential to redefine global interactions and transactions.
 
+
     ## Seers' Accomplishments and Decentralised Future
 
     - Over the past year, Seers conducted extensive product-market fit experiments, featuring 300 prediction markets and engaging 3,000 users. Additionally, our community has created over 10,000 posts, reflecting active participation.
@@ -114,6 +115,7 @@ NnsProposal:
 
     For more information on the Seers Project and SNS please read the [whitepaper here](https://www.notion.so/Seers-Web3-Social-Network-25fa0f505b0141cabb5d7d68a11f572b).
 
+
     ## Proposed Token Distribution
 
     Total token supply: 100 million ICX tokens.
@@ -125,6 +127,7 @@ NnsProposal:
     - 69%: Reserved for the SNS treasury and Seers Foundation.
 
     Ledger transaction fee: 0.001 ICX tokens
+
 
     ## Governance
 
@@ -145,6 +148,7 @@ NnsProposal:
     - Max age for age bonus: 3 months
     - Max age bonus: 2x
 
+
     ## Decentralization Sale
 
     16% of the total supply of tokens is proposed to be distributed via an SNS decentralization sale. 
@@ -162,6 +166,7 @@ NnsProposal:
 
     The sale is open to anyone. Participation is either via the launchpad in the NNS front end: https://nns.ic0.app/ or on the command line using [quill](https://wiki.internetcomputer.org/wiki/How-To:_SNS_swap_participation_via_quill).
 
+
     ## The dApp
 
     The Seers dApp consists of a set of canister smart contracts.
@@ -170,6 +175,7 @@ NnsProposal:
 
     - 1 Frontend canister (oulla-fyaaa-aaaag-qa6fa-cai)
     - 1 Backend canister (otknu-iaaaa-aaaag-qa6fq-cai)
+
 
     All the details above can be verified, by examining the initialized Seers SNS canisters. [More detailed instructions are here](https://wiki.internetcomputer.org/wiki/How-to:_Verify_SNS_decentralization_swap_proposal).
 
@@ -594,7 +600,7 @@ Swap:
     # many neurons will be in each participant's neuron basket. Note that
     # the first neuron in each neuron basket will have zero dissolve delay.
     # This value should thus be greater than or equal to `2`.
-    events: 5
+    events: 3
 
     # The interval at which the schedule will be increased per event. The
     # first neuron in the basket will be unlocked with zero dissolve delay.
