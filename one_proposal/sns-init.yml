@@ -137,7 +137,7 @@ NnsProposal:
 
     ## Governance
 
-    - Each decentralization sale participant (including the NF) will receive their tokens in a basket of 3 equal value ICX neurons with dissolve delays of 0, 3, 6 months respectively.
+    - Each decentralization sale participant (including the NF) will receive their tokens in a basket of 5 equal value ICX neurons with dissolve delays of 0, 3, 6, 9, 12 months respectively.
 
     - The founding dev team will receive their tokens in a basket of 5 neurons. Each neuron will have a dissolve delay of 1 month. 
 
@@ -151,15 +151,15 @@ NnsProposal:
 
     - Min staking period for voting: 1 month
 
-    - Max staking period: 1 year
+    - Max staking period: 2 year
 
     - Voting Rewards: 2.5% annually.
 
-    - Max staking bonus (for 1 year): 2x
+    - Max staking bonus: 2x
 
     - Max age for age bonus: 3 months
 
-    - Max age bonus: 2x
+    - Max age bonus: 1x
 
 
     ## Decentralization Sale
