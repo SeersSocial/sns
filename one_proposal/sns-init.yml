@@ -327,7 +327,7 @@ Voting:
       # This parameter sets the maximum dissolve delay a neuron can have.
       # When reached, the maximum dissolve delay bonus will be applied.
       # This field is specified as a duration. For example: "8 years".
-      duration: 1 year
+      duration: 2 year
       # If a neuron's dissolve delay is `duration`, its voting power will
       # be multiplied by this `bonus` amount. This field is specified
       # as a percentage. For example: "100%".
@@ -621,7 +621,7 @@ Swap:
     # many neurons will be in each participant's neuron basket. Note that
     # the first neuron in each neuron basket will have zero dissolve delay.
     # This value should thus be greater than or equal to `2`.
-    events: 3
+    events: 5
 
     # The interval at which the schedule will be increased per event. The
     # first neuron in the basket will be unlocked with zero dissolve delay.
