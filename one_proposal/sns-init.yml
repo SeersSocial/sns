@@ -242,7 +242,7 @@ Token:
   # Path to the SNS token logo on your local filesystem. The path is relative
   # to the configuration file location, unless an absolute path is given.
   # Must have less than 341,334 bytes. The only supported format is PNG.
-  logo: logo.png
+  logo: icx-logo.png
 
 # Configures SNS proposal-related fields. These fields define the initial values
 # for some of the nervous system parameters related to SNS proposals. This will
