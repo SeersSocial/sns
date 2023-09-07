@@ -71,7 +71,7 @@ Principals: []
 # Path to the SNS Project logo on the local filesystem. The path is relative
 # to the configuration file's location, unless an absolute path is given.
 # Must have less than 341,334 bytes. The only supported format is PNG.
-logo: logo.png
+logo: icx-logo.png
 
 # URL to the dapp controlled by the SNS project.
 # Must be a string from 10 to 512 bytes.
@@ -665,7 +665,7 @@ Swap:
   # The duration of the decentralization swap. When `start_time` is calculated
   # during CreateServiceNervousSystem proposal execution, this `duration` will
   # be added to that absolute time and set as the swap's deadline.
-  duration: 10 days
+  duration: 14 days
 
   # The amount of ICP that will be contributed to the decentralization swap by
   # the Neurons' Fund if the CreateServiceNervousSystem proposal is adopted.
