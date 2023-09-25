@@ -1,22 +1,22 @@
 {
-  "governance_canister_id": "vpvu5-rqaaa-aaaaq-aabka-cai",
-  "index_canister_id": "vgw7b-hyaaa-aaaaq-aablq-cai",
-  "ledger_canister_id": "viusj-4iaaa-aaaaq-aabkq-cai",
-  "root_canister_id": "v2sfq-qyaaa-aaaaq-aabjq-cai",
+  "governance_canister_id": "rceqh-cqaaa-aaaaq-aabqa-cai",
+  "index_canister_id": "rlh33-uyaaa-aaaaq-aabrq-cai",
+  "ledger_canister_id": "rffwt-piaaa-aaaaq-aabqq-cai",
+  "root_canister_id": "u67kc-jyaaa-aaaaq-aabpq-cai",
   "sns_governance": {
-    "ic": "vpvu5-rqaaa-aaaaq-aabka-cai"
+    "ic": "rceqh-cqaaa-aaaaq-aabqa-cai"
   },
   "sns_index": {
-    "ic": "vgw7b-hyaaa-aaaaq-aablq-cai"
+    "ic": "rlh33-uyaaa-aaaaq-aabrq-cai"
   },
   "sns_ledger": {
-    "ic": "viusj-4iaaa-aaaaq-aabkq-cai"
+    "ic": "rffwt-piaaa-aaaaq-aabqq-cai"
   },
   "sns_root": {
-    "ic": "v2sfq-qyaaa-aaaaq-aabjq-cai"
+    "ic": "u67kc-jyaaa-aaaaq-aabpq-cai"
   },
   "sns_swap": {
-    "ic": "vbxzv-kaaaa-aaaaq-aabla-cai"
+    "ic": "rmg5p-zaaaa-aaaaq-aabra-cai"
   },
-  "swap_canister_id": "vbxzv-kaaaa-aaaaq-aabla-cai"
+  "swap_canister_id": "rmg5p-zaaaa-aaaaq-aabra-cai"
 }
